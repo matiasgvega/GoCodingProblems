@@ -1,3 +1,3 @@
-module first/matias/playground
+module GoCodingProblems
 
 go 1.19
