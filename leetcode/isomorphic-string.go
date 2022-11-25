@@ -19,6 +19,8 @@ Example 3:
 
 Input: s = "paper", t = "title"
 Output: true
+
+https://leetcode.com/problems/isomorphic-strings/
 */
 func isIsomorphic(s string, t string) bool {
 	if len(s) != len(t) {
@@ -35,7 +37,7 @@ func isIsomorphic(s string, t string) bool {
 func oneWayIsomorphic(l string, r string) bool {
 	mapping := make(map[uint8]uint8)
 
-	for i := 0; i < len(l); i++ {
+	for i := range l {
 
 		lc, rc := l[i], r[i]
 
